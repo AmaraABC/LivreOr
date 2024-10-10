@@ -9,6 +9,19 @@ body {
     }
 }
 
+/* Formulaire de la page d'inscription et de connexion */
+
+.log-form {
+    text-align: center;
+
+    input, textarea {
+        width: 20%;
+        padding: .7rem;
+        margin-bottom: .5em;
+        text-align: center;
+    }
+}
+
 form {
     margin-bottom: 1rem;
 }
@@ -27,7 +40,7 @@ button {
     margin-top: .4rem;
 }
 
-.message {
+.message-div {
     border: 1.5px solid midnightblue;
     padding: .9em;
     margin-bottom: 2em;
